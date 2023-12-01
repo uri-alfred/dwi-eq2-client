@@ -1,0 +1,25 @@
+:root{
+    /* colores */
+    --color-warning: #FDC80B;
+    --color-sussece: #32D338;
+    --color-primary: #0b5f97;
+    --color-secondary: #3e80ac;
+    --color-blanco: #FFFFFF;
+    --color-hover: #a5dafd;
+  }
+
+.conter {
+    margin-left: 300px !important;
+    transition: margin-left 0.3s ease-in;
+    padding: 50px !important;
+}
+
+.conter.inactive {
+    margin-left: 80px !important;
+}
+
+.divhr {
+    height: 1px;
+    width: 100%;
+    background-color: var(--color-primary);
+}

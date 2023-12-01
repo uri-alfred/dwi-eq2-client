@@ -11,7 +11,7 @@ import { ToastContainer, toast } from "react-toastify";
 export default function Categorias() {
   const [inactive, setInactive] = React.useState(false);
   const [categorias, setCategorias] = useState([]);
-  const endPoint = `${process.env.SERVICE_URL_BASE}/api/categories`;
+  const endPoint = `${process.env.REACT_APP_SERVICE_URL_BASE}/api/categories`;
 
   const [showNuevo, setShowNuevo] = useState(false);
   const [showEdit, setShowEdit] = useState(false);

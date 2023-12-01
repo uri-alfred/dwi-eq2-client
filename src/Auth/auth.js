@@ -29,7 +29,7 @@ function AuthProvider({ children }) {
 
 
   const API = axios.create({
-    baseURL: `${process.env.SERVICE_URL_BASE}/api`,
+    baseURL: `${process.env.REACT_APP_SERVICE_URL_BASE}/api`,
   });
 
   const navigate = useNavigate();

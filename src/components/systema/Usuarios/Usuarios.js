@@ -12,7 +12,7 @@ export default function Usuarios() {
   const [inactive, setInactive] = useState(false);
   const [usuarios, setUsuarios] = useState([]);
 
-  const endPoint = `${process.env.SERVICE_URL_BASE}/api/`;
+  const endPoint = `${process.env.REACT_APP_SERVICE_URL_BASE}/api/`;
 
   const [showNuevo, setShowNuevo] = useState(false);
   const [showEdit, setShowEdit] = useState(false);

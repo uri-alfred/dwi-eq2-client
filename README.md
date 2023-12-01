@@ -6,4 +6,4 @@
 
 # Claves y variables de entorno
 - .env se agrego aparte en render con nombre y valor 
-    + SERVICE_URL_BASE='url del service desplegado (back)'
+    + REACT_APP_SERVICE_URL_BASE='url del service desplegado (back)'

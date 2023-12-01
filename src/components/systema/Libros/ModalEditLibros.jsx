@@ -4,7 +4,7 @@ import Modal from "react-bootstrap/Modal";
 import axios from "axios";
 import { toast } from "react-toastify";
 
-const endPoint = `${process.env.SERVICE_URL_BASE}/api/books`;
+const endPoint = `${process.env.REACT_APP_SERVICE_URL_BASE}/api/books`;
 
 export default function ModalEditLibros({ show, handleClose, id_Libro }) {
   const [titulo, setTitulo] = useState("");
@@ -16,7 +16,7 @@ export default function ModalEditLibros({ show, handleClose, id_Libro }) {
 
   const getCategorias = async () => {
     await axios
-      .get(`${process.env.SERVICE_URL_BASE}/api/categories`, {
+      .get(`${process.env.REACT_APP_SERVICE_URL_BASE}/api/categories`, {
         withCredentials: true, // Habilita el envío de cookies con la solicitud
         headers: {
           "Content-Type": "application/json",

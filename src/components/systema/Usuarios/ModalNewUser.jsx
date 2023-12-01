@@ -4,7 +4,7 @@ import Modal from "react-bootstrap/Modal";
 import axios from "axios";
 import { toast } from "react-toastify";
 
-const endPoint = `${process.env.SERVICE_URL_BASE}/api/usuarios`;
+const endPoint = `${process.env.REACT_APP_SERVICE_URL_BASE}/api/usuarios`;
 
 export default function ModalNewUser({ show, handleClose }) {
   const [nombre, setNombre] = useState("");

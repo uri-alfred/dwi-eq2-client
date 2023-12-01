@@ -1,7 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-const dotenv = require('dotenv');
-dotenv.config({ path: ".env" });
 import "./index.css";
 import App from "./App";
 import { ProSidebarProvider } from "react-pro-sidebar";

@@ -11,7 +11,7 @@ import { ToastContainer, toast } from "react-toastify";
 export default function Libros() {
   const [inactive, setInactive] = React.useState(false);
   const [libros, setLibros] = useState([]);
-  const endPoint = `${process.env.SERVICE_URL_BASE}/api/books`;
+  const endPoint = `${process.env.REACT_APP_SERVICE_URL_BASE}/api/books`;
 
   const [showNuevo, setShowNuevo] = useState(false);
   const [showEdit, setShowEdit] = useState(false);

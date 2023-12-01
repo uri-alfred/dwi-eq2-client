@@ -39,7 +39,7 @@ export default function Usuarios() {
 
   const getUsuarios = async () => {
     const res = await axios.get(`${endPoint}usuarios`, {
-      withCredentials: true, // Habilita el envío de cookies con la solicitud
+      withCredentials: true,
       headers: {
         "Content-Type": "application/json",
       },

@@ -114,13 +114,13 @@ export default function Categorias() {
                     <td>
                       <button
                         className="btn btn-outline-primary btn-sm me-2"
-                        onClick={() => handleShowEdit(categoria.category_id)}
+                        onClick={() => handleShowEdit(categoria.id)}
                       >
                         Editar
                       </button>
                       <button
                         className="btn btn-outline-danger btn-sm"
-                        onClick={() => deleteMaterial(categoria.category_id)}
+                        onClick={() => deleteMaterial(categoria.id)}
                       >
                         Eliminar
                       </button>
